@@ -35,7 +35,7 @@ public class Types {
 		private static final Duration AUTOMATIC_PHASE_SWITCH_COOLDOWN = Duration.ofSeconds(MAX_AGE);
 		static final Duration AUTOMATIC_PHASE_SWITCH_PV_LIMIT_WINDOW = Duration.ofMinutes(2);
 		/**
-		 * Fraction of the theoretically expected sample count (derived from the
+		 * 90% of the theoretically expected sample count (derived from the
 		 * actually observed Cycle-Time) that must be reached within a window before a
 		 * phase switch decision is made.
 		 */
